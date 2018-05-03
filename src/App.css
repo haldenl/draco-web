@@ -1,0 +1,6 @@
+.App {
+  display: flex;
+  flex-direction: column; }
+  .App .content {
+    height: calc(100vh - 40px);
+    position: relative; }
