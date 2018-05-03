@@ -1,5 +1,5 @@
 .Navbar {
-  height: 24px;
+  height: 32px;
   display: flex;
   flex-direction: row;
   padding: 8px 32px 8px 32px;
@@ -8,13 +8,14 @@
   flex: 0 0 auto; }
   .Navbar .title {
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.5em;
     padding: 0 16px 0 16px;
     cursor: default;
     flex: 1 0 0; }
   .Navbar .tabs {
     display: flex;
-    flex: 1 0 0; }
+    flex: 1 0 0;
+    font-size: 1.2em; }
     .Navbar .tabs .tab {
       font-size: 0.8em;
       padding: 0 8px 0 8px;

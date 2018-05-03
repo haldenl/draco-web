@@ -33,7 +33,7 @@ class Editor extends React.Component<any, State> {
 
     return (
       <div className="Editor">
-        <SplitPane split="vertical" defaultSize="40%">
+        <SplitPane split="vertical" defaultSize="40%" minSize={400}>
             <MonacoEditor editorDidMount={this.editorDidMount} requireConfig={requireConfig}/>
             <div/>
         </SplitPane>
